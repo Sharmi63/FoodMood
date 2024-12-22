@@ -1,0 +1,148 @@
+/*fot logo*/
+
+.container img{
+    width: 100px;
+    height: 50px;
+}
+.container .cls-1{
+    font-size: 20px;
+    color: #fcae61;
+    font-weight: bold;
+    margin-left: -25px;
+}
+.container .cls-2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*for menu*/
+
+header .cl1{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: 0.4s;
+}
+header .cl2:hover .cl1{
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    z-index: 1;
+}
+
+/*for hero*/
+
+.hero .im img{
+    width: 100%;
+}
+.hero h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fcae61;
+}
+.hero span{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.hero p{
+    font-size: 18px;
+    color: white;
+}
+.hero{
+    position: relative;
+}
+.hero .hero-item{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 50px;               
+}
+
+/*for gallery*/
+
+.gallery h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fcae61;
+    padding-top: 30px;
+}
+.gallery span{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    padding-top: 30px;
+}
+.gallery p{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.gallery .card_img{
+    height: 250px;
+    overflow: hidden;
+}
+.gallery .card_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery .row button{
+    color: #fcae61;
+}
+.gallery .nav-pills .nav-link.active{
+    background-color: #fcae61;
+}
+
+/*for employee*/
+
+.employee h1{
+    color: #fcae61;
+    font-weight: bold;
+}
+.employee span{
+    color: gray;
+    font-weight: bold;
+}
+.employee .flex-column h1{
+    color: #fcae61;
+    font-size: 40px;
+}
+.employee .card .card-header{
+    overflow: hidden;
+}
+.employee .card .card-header img{
+    transition: 0.4s;
+    height: 100%;
+    width: 100%;
+}
+.employee .card .card-header img:hover{
+    transform: scale(1.1);
+}
+
+/*for contact*/
+
+.contact h1{
+    color: #fcae61;
+    font-weight: bold;  
+    text-align: center;  
+}
+.contact span{
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 20px;
+}
+.contact .row .brd{
+   text-decoration: underline 3px;
+    color: #fcae61;
+}
