@@ -74,7 +74,7 @@ header .cl2:hover .cl1{
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    color: black;
+    color: gray;
     padding-top: 30px;
 }
 .gallery p{
@@ -129,7 +129,8 @@ header .cl2:hover .cl1{
 .contact h1{
     color: #fcae61;
     font-weight: bold;  
-    text-align: center;  
+    text-align: center; 
+    padding-top: 30px; 
 }
 .contact span{
     color: gray;
@@ -145,4 +146,72 @@ header .cl2:hover .cl1{
 .contact .row .brd{
    text-decoration: underline 3px;
     color: #fcae61;
+}
+
+/*for FAQ*/
+
+.faq h1{
+    color: #fcae61;  
+}
+.faq span{
+    color: gray;
+}
+.faq p{
+    font-size: 18px;
+    color: gray;
+}
+.faq .accordion-button{
+    color: #fcae61 !important;
+    border: #fcae61 solid 1px;
+}
+.accordion-button:not(.collapsed){
+    color: white !important;
+    background-color: #fcae61 !important;
+    box-shadow: 0 0 10px #fcae61 !important;
+}
+.faq .accordion-button:focus{
+    box-shadow: 0 0 10px #fcae61 !important;
+}
+
+/*for soket*/
+.soket{
+    background: #fcae61;
+}
+.soket .right-column a{
+    text-decoration: none;
+    color: #212721;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.soket ul{
+    list-style: none;
+    padding-top: 10px;
+}
+.soket li{
+    display: inline;
+    position: relative;
+}
+.soket li::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: calc(100% + 5px);
+    background: #d0cec9;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -2px;
+}
+.soket li:last-child::after{
+    display: none;
+}
+.soket .left-column a{
+    text-decoration: none;
+    color: #787878;
+    font-size: 20px;
+}
+.soket .left-column p{
+    color: #787878;
+    font-size: 20px;
+    padding-left: 50px;
+    margin-top: 10px;
 }
